@@ -1,0 +1,845 @@
+Service Diagnosis 
+35A1
+Description INDOOR PCB ABNORMALITY 
+Possible Root 
+cause1. Faulty indoor PCB.
+2. Faulty connector connection at indoor.
+Troubleshooting
+NoAny sign
+of loose or
+abnormal.YesTurn off unit.
+Check indoor PCB connector
+conditions (including PCB to
+terminal block and all PCB wire
+connector).
+Replace indoor PCB and
+operate again.Connect correctly and
+operate again. Service Diagnosis
+36A5
+Description ANTIFREEZE PROTECTION OR HIGH PRESSURE CONTROL
+Possible Root 
+cause1. 
+2. Indoor air short circuit.
+3. Indoor coil thermistor faulty.
+4. Indoor PCB faulty.
+5. Fan blower dirty.
+Troubleshooting
+Any air short
+circuit?
+Does it conform
+to the thermistor
+resistance table?Yes
+NoCheck indoor air flow.
+Check intake air filter.
+Check fan blower condition.
+Change indoor thermistor.Check the dust
+accumulate indoor coil.
+NoYes
+Change indoor PCB.Provide sufficient air passage.
+Is it very dirty?Yes
+NoClean the air filter.
+Check indoor coil
+thermistor resistance.Is it very dirty?Yes
+# Refer to thermistor resistance table.(Page 67, 6.1)NoClean fan blower.Is it very dirty?Yes
+NoClean the indoor coil.Service Diagnosis 
+37A6
+Description INDOOR FAN MOTOR ABNORMALITY 
+Possible Root 
+cause1. Indoor fan motor winding short, or the motor lead wire broken.
+2. Indoor PCB faulty.
+Troubleshooting
+Does it rotate?
+Does it connect
+properly?No
+Yes
+Change fan motor.Check fan motor connector
+condition.
+Yes
+NoChange PCB and turn on
+power.Turn off power supply and
+rotate fan by hand.
+No
+Connect correctly.Change fan motor.
+C4
+Description INDOOR HEAT EXCHANGER THERMISTOR ABNORMALITY
+Possible Root 
+cause1. Thermistor, connector faulty.
+2. Indoor PCB faulty.
+Troubleshooting
+Normal?No
+Yes
+Normal?# Refer thermistor resistance table.(Page 67, item 6.1)
+Replace PCB.Check thermistor resistance
+value.Check the thermistor connector
+condition.
+No
+Replace thermistorCorrect the connection
+Yes
+*Remark:
+Refer Thermistor resistance check procedure in Appendix A.(Page 67, item 6.1) Service Diagnosis
+38C9
+Description INDOOR ROOM THERMISTOR ABNORMALITY
+Possible Root 
+cause1. Thermistor, connector faulty.
+2. Indoor PCB faulty.
+Troubleshooting
+YesNormal?No
+Yes
+Normal?# Refer thermistor resistance table.(Page 67, item 6.1)
+Replace PCB.Check thermistor resistance
+value.Check the thermistor connector
+condition.
+No
+Replace thermistorCorrect the connectionService Diagnosis 
+39E1
+Description OUTDOOR PCB ABNORMALITY
+Possible Root 
+cause1. Micro Controller program run-away due to external factor such as Noise, Momentary voltage 
+drop, Momentary power failure.
+2. Damage of EEPROM.
+3. Faulty outdoor unit PCB.
+4. Broken hardness between PCB.
+Troubleshooting
+Error still
+occur?No
+Yes
+Grounded?
+YesTurn on the power again.
+Replace the harness.Check if the outdoor unit is 
+grounded.
+No
+Ground the system.
+Is the harness
+broken?Replace outdoor PCB.Replace outdoor PCB.
+No
+Yes Service Diagnosis
+40E5
+Description COMPRESSOR OVERLOAD 
+Possible Root 
+cause1. Refrigerant Shortage.
+2. 4 way valve malfunction.
+3. Stop valve malfunction.
+4. Outdoor unit PCB defective.
+5. Water mixed in refrigerant.
+6. Electronic expansion valve defective.
+7. Disconnection of discharge pipe thermistor.
+8. Faulty discharge pipe thermistor.
+9. Disconnection of connector S40.
+10. Electronic expansion valve or coil malfunction.
+11. Disconnection of 2 terminals of OL.
+Troubleshooting
+NoYesMalfunction?Malfunction?YesNoYes
+YesThermistor
+resistance normal?
+Disconnect connector
+S40 from PCB.
+Replace electronicexpansion or the coil.Discharge pipe
+thermistor
+disconnected?
+NoYes
+Insert thermistor in position.
+Check resistanceof 2 terminals 
+connector S40.
+Malfunction?Resistance between
+2Disconnect 2 terminals of OL.
+Replace outdoor PCB.No
+# Refer to thermistor resistance table.(Page 67, item 6.1)Replace thermistor.
+Refer refrigerant line
+check procedures.Connectors
+properly
+connected?Yes
+Check electronic expansion.
+Replace four way valve or
+the coil.
+Replace outdoor PCB.NoCheck fourway valve.
+Checkrefrigerant line.Connect back the connectors.
+Disconnect 2
+terminals of OL.
+Disconnect 2
+terminals of OL.No
+Yes
+NoNo
+YesYes
+*Remark: 
+Please refer to Appendix A for Electronic expansion valve (page 69,item 6.2), four way valve (page 69,item 
+6.3) and refrigerant line checking procedures (page 70,item 6.4).Service Diagnosis 
+41E5
+Description COMPRESSOR OVERLOAD
+Possible Root 
+cause1. Refrigerant Shortage.
+2. 4 way valve malfunction.
+3. Electronic expansion valve defective.
+4. Outdoor unit PCB defective.
+5. Water mixed in refrigerant.
+Troubleshooting
+#Compressor winding resistance 1.18
+#Refer page 69 item 6.3ResistanceNo
+Yes
+Compressor
+stop without
+NoYes
+Change outdoor PCB.Change compressor.Turn off unit. Disconnect
+compressor wire hardness
+(U.V.W) and check winding.
+on unit.
+Check expansion.
+Yes
+NoYesYesNo
+check procedures.NoCheck four
+Check#Refer page 69 item 6.2
+#Refer page 70 item 6.4(68°F) Service Diagnosis
+42E6
+Description COMPRESSOR LOCK/START-UP ABNORMALITY
+Possible Root 
+cause1. Compressor locked.
+2. Compressor harness disconnect.
+Troubleshooting
+Check with Inverter analyzer.
+Normal?No
+YesCorrect power supply or
+replace outdoor unit PCB.
+Check outdoor electronic
+expansion valve coil.
+Replace it as required.Emergency stop
+without compressor
+running?
+NoYes
+Replace the compressor.
+Yes
+Replace the compressor.System shut down
+after errors repeated
+several times?NoTurn off power.
+Disconnect harnesses U, V and
+W.
+Turn off power and reconnect
+harnesses. Turn on power again
+and restart system.Service Diagnosis 
+43E7
+Description OUTDOOR FAN MOTOR LOCK
+Possible Root 
+cause1. Fan motor breakdown.
+2. Harness or connector disconnected between fan motor and PCB or in poor contact.
+3. Foreign matter stuck in fan.
+4. Defective outdoor unit PCB.
+Troubleshooting
+Turn on the power.
+Check rotation pulse input
+on outdoor unit PCB.Fan rotates
+smoothly?No
+YesTurn off power and
+reconnect connector.Fan motor
+connector
+disconnected?
+NoYes
+Foreign
+matters in or
+arround fan?
+No
+Rotate the fan.Yes
+Remove foreign matters.
+Replace outdoor fan motor.
+Yes
+Replace outdoor PCB.Pulse signal
+generated?No
+Replace outdoor fan motor.
+*Remark:
+Refer Appendix A for rotation pulse check.(Page 71, item 6.5) Service Diagnosis
+44E8
+Description AC INPUT OVER CURRENT 
+Possible Root 
+cause1. Over current due to compressor failure.
+2. Over current due to defective outdoor unit PCB.
+3. Over current due to defective power transistor.
+4. Over current due to short-circuit.
+Troubleshooting
+Any abnormal?
+Compressor
+faulty?YesMeasure the input current.
+Change outdoor Control Box.Check with the inverter checker.Check outdoor fan motor,
+outdoor ambient temperature,
+refrigerant charge level
+Turn off the power and
+disconnect the harness U, V
+and W.
+NoRefer to the type of abnormality
+and conduct proper service.
+Yes
+Change Compressor.Input current
+flowing above its
+stop level?
+YesNo
+Replace the outdoor unit
+NoService Diagnosis 
+45EA
+Description 4 WAY VALVE ABNORMALITY
+Possible Root 
+cause1. Thermistor defective.
+2. 4 way valve defective.
+3. Outdoor PCB defective.
+4. 
+5. Foreign substance mixed in refrigerant.
+6. Stop valve defective.
+7. Disconnect of 4 way valve coil.
+Troubleshooting
+Harness
+disconnected?
+Check the four way
+valve switching
+output.Yes
+No
+Check the continuity of the four
+way valve coil and harness.
+Disconnect the harness from
+the connector.
+FunctioningCorrect the four way valve
+coil.
+Replace the four way valve
+coil.
+Replace the defective
+thermistor(s).Malfunction
+Replace the outdoor unit PCB.
+Reconnect the thermistor(s).Reconnect the harness.
+Resistance
+between harnesses.No
+Yes
+Any thermistor
+disconnected?Yes
+No
+Check the thermistors.Malfunction
+Functioning
+Refer to the refrigerant
+line check procedure.
+Replace the four way valve
+(defective or dust-clogged).Check the
+refrigerant
+line.Malfunction
+FunctioningFour way valve
+coil disconnected
+(loose)?
+NoYes
+within spec?
+*Remark:
+Refer to Appendix A for thermistor resistance checking procedures.(Page 67, item 6.1)
+Refer to Appendix A for Four way valve performance checking procedures.(Page 69, item 6.2)
+Refer to Appendix A for Inverter unit refrigerant check procedures.(Page 70, item 6.4) Service Diagnosis
+46F3
+Description DISCHARGE PIPE OVERHEAT 
+Possible Root 
+cause1. Refrigerant shortage.
+2. Four way valve malfunctioning.
+3. Discharge pipe thermistor defective.
+4. Outdoor PCB defective.
+5. Water mixed in the local piping.
+6. EXV defective.
+7. Stop Valve defective.
+Troubleshooting
+Check the
+thermistors.
+Check the
+electronic expansion
+valve.Malfunction
+* Discharge pipe thermistor
+* Outdoor heat exchanger thermistor
+* Outdoor temperature thermistor Functioning
+FunctioningReplace the defective
+thermistor(s).
+Check the
+refrigerant line.Malfunction
+* Refrigerant shortage
+* Four way valve
+* Water mixed
+* Stop valveFunctioningRefer to the refrigerant
+line check procedure.Replace the electronic
+expansion valve or the coil.Malfunction
+Replace the outdoor unit PCB.
+*Remark:
+Refer to Appendix A for thermistor resistance checking procedures.(Page 67, item 6.1)
+Refer to Appendix A for Electronic Expansion Valve (EXV) checking procedures. (Page 69, item 6.2)
+Refer to Appendix A for Inverter unit refrigerant check procedures. (Page 70, item 6.4)Service Diagnosis 
+47F6
+Description HEAT EXCHANGER OVERHEAT
+Possible Root 
+cause1. The installation space is not large enough.
+2. Faulty outdoor fan motor.
+3. Faulty EXV.
+4. Faulty outdoor heat exchanger thermistor.
+5. Faulty stop valve.
+6. Dirty heat exchanger.
+7. Unit overcharge.
+8. Defective outdoor unit PCB.
+Troubleshooting
+Check the
+outdoor fan.
+Check the
+electronic expansion
+valve.MalfunctionCheck the installation space.
+Replace the outdoor heat
+exchanger thermistor.Malfunction
+Replace the outdoor unit PCB.Check the
+installation
+condition.
+Functioning
+Functioning
+Functioning
+FunctioningMalfunctionChange the installation
+location or direction.
+Clean the outdoor heat
+exchanger.
+Replace the outdoor fan
+motor.
+Reconnect the connector or
+fan motor lead wires.
+Replace the electronic
+expansion valve or the coil.
+Replace the outdoor unit PCB.
+Check the
+outdoor heat exchanger
+thermistor.Malfunction
+*Remark:
+Refer to Appendix A for thermistor resistance checking procedures.(Page 67, item 6.1)
+Refer to Appendix A for Electronic Expansion Valve (EXV) checking procedures. (Page 69, item 6.2)
+Refer to Appendix A for Inverter unit refrigerant check procedures. (Page 70, item 6.4)
+Refer to Appendix A for Installation condition check. (Page 71, item 6.6) Service Diagnosis
+48H0 (Class 18/24)
+Description COMPRESSOR SENSOR SYSTEM ABNORMAL
+Possible Root 
+cause1. Broken and disconnected harness.
+2. Outdoor unit PCB defective.
+3. Defective compressor.
+Troubleshooting
+# Disconnect the reactor wire and measure
+resistance between terminal.Any abnormal?Yes
+NoCheck reactor connection.
+Check reactor resistance.
+Check compressor resistance.
+Change outdoor PCB.YesNo
+Change reactor.
+YesNo
+Change Compressor.Connect back reactor.Service Diagnosis 
+49H0 (Class 09/12)
+Description COMPRESSOR SENSOR SYSTEM ABNORMAL
+Possible Root 
+cause1. Broken and disconnected harness.
+2. Outdoor unit PCB defective.
+Troubleshooting
+Is the harness
+broken?
+Get restarted
+and error
+displayed again?Yes
+No
+Turn off the power and turn it on
+again.
+YesNo problem.
+Keep on running.NoReplace the harness.
+Replace the PCB.Check the harness S30. Service Diagnosis
+50H6 (Class 09/12)
+Description POSITION SENSOR ABNORMAL (COMPRESSOR)
+Possible Root 
+cause1. Compressor relay cable disconnected.
+2. Compressor itself defective.
+3. Outdoor PCB defective.
+4. Stop valve closed.
+5. 
+Troubleshooting
+Normal?
+Electricals or
+compressor harnesses
+connected as
+specified?No
+YesCheck for short circuit.
+Check with inverter checker (*).Check the electrolytic capacitor
+voltage.
+Turn off the power. Disconnect
+the harness U, V and W.Replace the outdoor unit
+PCB, outdoor unit fan.
+DC320 ± 30 V?No
+Yes
+NoAny LED off?Yes Correct the power supply or
+replace the outdoor unit PCB.No
+Reconnect as specified.
+* Inverter checker
+ Part No.: 1225477Replace the outdoor unit PCB.
+Replace the compressor.Service Diagnosis 
+51H6 (Class 18/24)
+Description POSITION SENSOR ABNORMAL (COMPRESSOR)
+Possible Root 
+cause1. Compressor relay cable disconnected.
+2. Compressor itself defective.
+3. Outdoor PCB defective.
+4. Stop valve closed.
+5. 
+Troubleshooting
+Remark:
+Refer to Appendix A for Diode bridge short circuit check procedures.(Page 72, item 6.8)Voltage as rated?No
+YesCheck the power supply voltage.
+Check stop valve.
+Check the connection.Turn off the power.
+Check with the inverter analyzer.Turn off the power. Disconnect
+the harnesses U, V and W.Turn on the power. Check the
+electrolytic capacitor voltage.
+Any LED off?No
+Correct the power supply or
+replace the outdoor unit PCB.Reconnect the electrical
+components or compressor
+harnesses as specified.Electrical
+components or
+compressor harnesses
+connected as
+specified?No
+* Inverter analyzer:
+ RSUK0917CCheck the short circuit of the
+diode bridge.
+Normal?No
+YesReplace the outdoor unit PCB.
+320 = 50 VDC?No
+Yes
+YesReplace the outdoor unit PCB.Correct the power supply.
+OK?No
+Yes
+YesReplace the stop valve.
+Replace the compressor. Service Diagnosis
+52H8
+Description AC CURRENT SENSOR ABNORMALITY
+Possible Root 
+cause1. Internal wiring broken.
+2. Outdoor unit PCB defective.
+Troubleshooting
+*Remark:
+This error is only applicable for model Class 18/24.Connection correct?No
+Yes
+Change outdoor PCB.Restart the system and check
+connector between main board
+and IPM board.Check compressor harness
+connection.
+Does it connect
+properly?No
+YesReconnect it properly.Reconnect it correctly.Service Diagnosis 
+53H9, J3, J6, P4
+Description Thermistor or related abnormality 
+H9: OUTDOOR AIR THERMISTOR ABNORMALITY
+J3: COMPRESSOR DISCHARGE PIPE THERMISTOR ABNORMALITY
+J6: OUTDOOR HEAT EXCHANGER THERMISTOR ABNORMALITY
+P4: HEAT SINK THERMISTOR ABNORMALITY
+Possible Root 
+cause1. Disconnection of the connector for the thermistor.
+2. Thermistor corresponding to the error code is defective.
+3. Defective heat exchanger thermistor in the case of J3 error (outdoor heat exchanger 
+thermistor in cooling operation, or indoor heat exchanger thermistor in heating operation).
+4. Defective outdoor unit PCB.
+Troubleshooting
+*Remark:
+Refer to Appendix A for thernistor resistance check procedures.(Page 67, item 6.1)No
+YesTurn on the power again.
+Check the indoor heat
+exchanger thermistor resistance
+value in the heating operation.Check the thermistor resistance
+value.
+Normal?
+J3 error: the discharge
+pipe temperature is 
+lower than the heat 
+exchanger temperature.
+Cooling: Outdoor heat 
+exchanger
+temperature.
+Heating: Indoor heat 
+exchanger
+temperature.No
+Yes
+YesReplace the defective
+thermistor(s) of the following
+thermistors.
+* Outdoor temperature 
+thermistor.
+* Discharge pipe thermistor.
+* Outdoor heat exchanger 
+thermistor.Error displayed
+again on remote
+controller?
+Indoor heat
+exchanger thermistor
+functioning?No Replace the indoor heat
+exchanger thermistor.Reconnect the connectors
+or thermistors.
+Replace the outdoor unit PCB. Service Diagnosis
+54L3
+Description ELECTRICAL BOX TEMPERATURE RISE (COMPRESSOR OFF)
+Possible Root 
+cause1. Fin temperature rise due to defective outdoor unit fan.
+2. Fin temperature rise due to short circuit.
+3. Fin thermistor defective.
+4. Connector in poor contact.
+5. Outdoor unit PCB defective.
+Troubleshooting
+*Remark:
+Refer to Appendix A for thermistor resistance check procedures.(Page 67, item 6.1)
+Refer to Appendix A for outdoor fan system check. (Page 72, item 6.7)
+Refer to Appendix A for installation condition check. (Page 71, item 6.6)Models A °C (°F)
+Class 09/12 78 (172.4)
+class 18/24 122 (251.6)Error again?No
+Yes
+Check heat sink thermistor
+resistance.
+Change heat sink or check
+outdoor fan condition.Turn off the unit and turn
+on back after 20 mins.
+Resistance normal?
+Heat sink
+temperature > A°C?No
+YesOutdoor fan
+functioning?
+Yes
+Heat sink dirty?
+YesCheck outdoor fan.
+No
+No
+Clean the heat sink. NoChange
+outdoor
+fan motor.
+Check
+installation
+condition.
+Change
+outdoor
+PCB.Change
+thermistor.Service Diagnosis 
+55L4
+Description Heat sink overheat
+Possible Root 
+cause1. Fin temperature rise due to short circuit.
+2. Fin temperature rise due to defective outdoor unit fan.
+3. Fin thermistor defective.
+4. Connector in poor contact.
+5. Outdoor unit PCB defective.
+6. 
+Troubleshooting
+*Remark:
+Refer to Appendix A for outdoor fan system check.(Page 72, item 6.7)
+Refer to Appendix A for installation condition check. (Page 71, item 6.6)YesError displayed
+again?seY seY
+NoTurn off the power and turn it on
+again to start the system.
+Has the PCB been
+replaced?
+AboveA°C?Check the radiation fin
+temperature.
+Check the
+outdoor fan.Malfunction
+NoFunctioning
+Radiation fin dirty?
+YesCheck if silicon grease is
+applied properly on the
+radiation fin. If not, apply
+the silicon grease.
+Replace the outdoor fan
+motor.
+Correct the connectors and
+fan motor leads.
+Replace the outdoor unit
+PCB.Replace the outdoor unit
+PCB.
+Check the installation
+condition.
+Clean up the radiation fin.No
+No
+Models A °C (°F)
+Class 09/12 93 (199.4)
+class 18/24 85 (185) Service Diagnosis
+56L5
+Description IPM ABNORMALITY
+Possible Root 
+cause1. Over current due to defective power transistor.
+2. Over current due to wrong internal wiring.
+3. Over current due to abnormal supply voltage.
+4. Over current due to defective PCB.
+5. Error detection due to defective PCB.
+6. Over- current due to closed stop valve.
+7. Over current due to compressor failure.
+8. Over current due to poor installation condition.
+9. Connection between main board and IPM board is not properly connect.
+Troubleshooting
+*Remark:
+Refer to Appendix A for installation condition check. (Page 71, item 6.6)Stop valve
+fully open?No
+YesCheck the installation condition.
+Check with the inverter analyzer.
+Check the power supply voltage.Turn off the power and turn it on
+again to start the system. See if
+the same error occurs.
+No
+Turn off the power and
+reconnect the harnesses. Turn
+on the power again and start
+operation.Turn off power and disconnect
+the harnesses U, V and W.Error again?No
+Yes
+YesAny LED off?
+Voltage as rated?Yes Correct the power supply or
+replace the outdoor unit PCB.Monitor the power supply
+voltage and suction
+pressures, and other factors
+for a long term.Fully open the stop valve.
+No
+Correct the power supply.
+Replace the compressor.Service Diagnosis 
+57U0
+Description INSUFFICIENT GAS
+Possible Root 
+cause1. Disconnection of the discharge pipe thermistor, indoor or outdoor heat exchanger,room or 
+outdoor temperature thermistor.
+2. Closed stop valve.
+3. Refrigerant shortage (refrigerant leakage).
+4. Poor compression performance of compressor.
+5. Defective electronic expansion valve.
+Troubleshooting
+*Remark:
+Refer to Appendix A for thermistor resistance checking procedures.(Page 67, item 6.1)
+Refer to Appendix A for electronic expansion device checking procedures.(Page 69, item 6.2)Stop valve closed?Yes
+No
+YesNo
+Yes
+Yes
+YesCheck indoor and outdoor
+coil thermistor.
+Put the thermistor back
+to actual position.
+Check the indoor coil,
+outdoor coil and discharge
+pipe thermistor resistance.Thermistor in
+actual position?
+Resistance
+normal?
+EXV functioning?
+Any leakage?
+NoFully open stop valve.
+No
+Change thermistor.
+No
+Change EXV.
+No
+Check for leakage.
+Repair the leak point.Check stop valve.
+Check EXV.
+YesRefrigerant
+charge
+sufficient?
+Change outdoor PCB.Check refrigerant charge
+level.
+Add in refrigerant charge. Service Diagnosis
+58U2
+Description DC VOLTAGE OUT OF RANGE
+Possible Root 
+cause1. 
+2. Defective DC voltage detection circuit.
+3. Defective over-voltage detection circuit.
+4. Defective PAM control part.
+5. Disconnection of compressor harness
+6. Short circuit inside the fan motor winding.
+7. Noise.
+8. Momentary drop of voltage.
+9. Momentary power failure.
+10. Defective outdoor unit PCB.
+Troubleshooting
+Is the
+voltage fluctuation
+within ±10% from the
+rated value?
+NoYes
+YesCheck the power supply voltage.
+Turn on the power.Check the connection of the
+compressor harness.
+Yes
+Disturbance factors
+* Noise
+* Power supply distortionReplace the outdoor fan motor
+and the outdoor unit PCB.
+Check for such factors for
+a long term.Loose or
+disconnected?
+Does the
+outdoor fan rotate
+smoothly?
+System restarted?
+(Repeat a few
+times.)Yes
+NoReconnect the harness.No
+Correct the power supply.
+No(Precaution before turning on the power again.)
+Make sure the power has been off for at least
+30 seconds.
+Replace the outdoor unit PCB.Service Diagnosis 
+59U4
+Description COMMUNICATION ABNORMALITY
+Possible Root 
+cause1. Faulty outdoor unit PCB.
+2. Faulty indoor unit PCB.
+3. Indoor unit – outdoor unit signal transmission error due to wiring error.
+4. Indoor unit – outdoor unit signal transmission error due to disturbed power supply waveform.
+5. Indoor unit – Outdoor unit signal transmission error due to breaking of wire in the connection 
+wires between the indoor and outdoor units
+Troubleshooting
+*Remark:
+Refer to Appendix A for power supply waveform check procedures.(Page 73, item 6.9)Is the
+voltage fluctuation
+within ±10% from the
+rated value?
+YesYes
+Rotate
+the outdoor fan
+by hand. Does the
+outdoor fan rotate
+smoothly?
+Yes
+YesCheck the power supply voltage.
+Check the indoor unit - outdoor
+unit connection wires.
+No
+Check the LED A on the
+outdoor unit PCB.
+Check the power supply waveform.Check the voltage of the
+connection wires on the indoor
+terminal board between No. 1(L) and
+SIG, and between No. 2 (N)and SIG.
+Replace the connection wires
+between the indoor unit and
+outdoor unit.
+Locate the cause of the
+disturbance of the power
+supply waveform, and correct it.NoCorrect the indoor unit -
+outdoor unit connection wires.
+Diagnose the outdoor unit
+PCB.
+Replace the outdoor fan motor
+and the outdoor unit PCB.Is there any
+wiring error?
+Properly connected?
+Is there any
+disturbance?YesIs LED A blinking?Yes
+NoNo
+Correct the power supply.
+No
+Replace the indoor unit PCB.No#Refer section 4.0 Wiring Connection Diagram Service Diagnosis
+60UA
+Description INSTALLATION ABNORMALITY
+Possible Root 
+cause1. Wrong models interconnected.
+2. Wrong indoor unit PCB mounted.
+3. Indoor unit PCB defective.
+4. Wrong outdoor unit PCB mounted or defective.
+Troubleshooting
+OK?No
+Yes
+Are the
+connecting wires
+connected
+properly?
+YesNo
+Correct the connection.Match the compatible models.
+Matched compatibly?No
+YesChange for the correct PCB.
+Replace the indoor unit PCB
+(or the outdoor unit PCB).Check the combination of the
+indoor and outdoor unit.
+Check the indoor and outdoor
+PCB part number.
